@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../assets/favicon.png">
+    <title>LunarBot</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="/">
+                <img src="../assets/bot.png" alt="" width="50" height="50" class="rounded-circle"> &nbsp;
+                <span>Lunar!</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#/">Comandos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html">Staff</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Links
+                        </a>
+                        <ul class="dropdown-menu bgn" aria-labelledby="linksdrop">
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="" target="_blank">Invite
+                                    Bot</a>
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="" target="_blank">Support
+                                    Server</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex ml-auto" id="headerlogin">
+                    <li class="nav-item" style="list-style: none;">
+                        <a class="nav-link btn btn-outline-secondary login" href="/login">Login</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="jumbotron text-center bg-transparent">
+        <h1 class="commandstitle">Comandos</h1>
+        <p class="lead commandssub">Mira todos los comandos de Lunar.</p>
+        <hr>
+        <input id="myInput" type="text" class="searchbox" placeholder="Search">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="border"></div>
+        <br>
+        <br>
+        <br>
+        <div id="myCmd">
+            <br>
+            <button type="button" class="collapsible">prefix<span> - Cambia el prefijo!</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoria:</h4>
+                <p style="color: aqua;">Administración</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-prefix</p>
+                <h4 style="color: #cccccc;">Ejemplo:</h4>
+                <p>-prefix !</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">comandos<span> - Mira los comandos del bot!</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoria:</h4>
+                <p style="color: rgb(19, 182, 160);">Información</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-comandos</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">bug<span> - Reporta un bug!</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoria:</h4>
+                <p style="color: rgb(19, 182, 160);">Información</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-bug</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">info<span> - Mira la información del bot!</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoria:</h4>
+                <p style="color: rgb(19, 182, 160);">Información</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-info</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">kiss<span> - Besa a un usuario</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(242, 44, 232);">Anime</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-kiss</p>
+                <h4 style="color: #cccccc;">Ejemplo:</h4>
+                <p>-kiss @KrozZz#9534</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">pat<span> - Acaricia a un usuario</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(242, 44, 232);">Anime</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-pat</p>
+                <h4 style="color: #cccccc;">Ejemplo:</h4>
+                <p>-pat @KrozZz#9534</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">slap<span> - Golpea a un usuario</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(242, 44, 232);">Anime</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-slap</p>
+                <h4 style="color: #cccccc;">Ejemplo:</h4>
+                <p>-slap @KrozZz#9534</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">angry<span> - Demuestra que te has enojado</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(242, 44, 232);">Anime</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-angry</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">cry<span> -  Estas triste y te pones a llorar</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(242, 44, 232);">Anime</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-cry</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">sleep<span> - Te duermes</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(242, 44, 232);">Anime</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-sleep</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">bored<span> - Te aburres mucho</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(242, 44, 232);">Anime</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-bored</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">kill<span> - Acaba con la vida de un usuario</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(242, 44, 232);">Anime</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-kill</p>
+                <h4 style="color: #cccccc;">Ejemplo:</h4>
+                <p>-kill @KrozZz#9534</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">meme<span> - Mira unos buenos memes y riete!</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(27, 44, 232);">Otros</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-meme</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">howcute<span> - Mira que tan hermoso/a eres!</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(27, 44, 232);">Otros</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-howcute</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">8ball<span> - Bola mágica</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(27, 44, 232);">Otros</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-8ball</p>
+                <h4 style="color: #cccccc;">Ejemplo:</h4>
+                <p>-8ball {pregunta}</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">avatar<span> - Besa a un usuario</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoría:</h4>
+                <p style="color: rgb(27, 44, 232);">Otros</p>
+                <h4 style="color: #cccccc;">Uso:</h4>
+                <p>-avatar</p>
+                <h4 style="color: #cccccc;">Ejemplo:</h4>
+                <p>-avatar / -avatar @KrozZz#9534</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="mastfoot mb-auto">
+      <div class="container-fluid mb-auto">
+        <div class="row d-flex justify-content-center">
+          <div class="">
+            <p style="font-size: 19px; padding: 0px; margin: 0px;"><a href="https://github.com/Hadi-Koubeissi"
+                style="text-decoration: none; color: white;">Hecho por LunarStudios</a></br>LunarStudios ©
+              2021. All
+              rights reserved.</br>[<a href="https://dsc.gg/lunarbot"><b>Invitar a mi servidor</b></a>]</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
